@@ -1,0 +1,65 @@
+.navber{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #0082e6;
+}
+.logo{
+    background-image: url(ceonlogo.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    position: absolute;
+    left: 50px;
+}
+.navber ul{
+ position: absolute;
+ left: 800px;
+  margin-right: 20px;
+
+}
+.navber ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+}
+.navber ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+ .mainsec{
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    border: 50px solid rgb(100, 100, 243);
+    align-items: center;
+    border-radius: 2rem;
+ }
+ h1{
+    position: absolute;
+    left: 70px;
+    font-size: 3rem;
+ }  
+ .nextmain{
+    height: 130px;
+    width: 500px;
+    position: absolute;
+    top: 500px;
+    left: 480px;
+    border: 5px solid  rgb(100, 100, 243);
+    padding: 10px;
+    font-size: 1.5rem;
+
+} 
