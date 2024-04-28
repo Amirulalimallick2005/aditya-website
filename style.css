@@ -1,705 +1,509 @@
-*{
-    margin: 0;
-    padding :0;
-    box-sizing: border-box;
+body{
+ 
 }
-body {
-   
-      padding-left: 100px;
-      padding-right: 100px;
-      background-color: #181D23;
-   
-}
-
-.menu_bar{
-    background-color:#181D23;
-    height: 80px;
+.navber{
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding:10 20%;
-    border-bottom: 0.5px solid white;
+    background-color: #0082e6;
 }
 .logo{
-    
-    height: 70px;
-    width: 300px;
-   
-    left: 100px;
-    background-image: url(lasti.png);
-    background-size: cover;
-    
-   }
-.menu_bar ul {
-list-style: none;
-display: flex;
-
-}
-.menu_bar ul li {
-    padding: 20px 30px;
-}
-.menu_bar ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    transition: all 0.3s;
-
-}
-.menu_bar ul li a:hover{
-    color: skyblue;
-
-}
-.dropdown_menu {
-    display:none;
-}
-.menu_bar ul li:hover .dropdown_menu{
-    display: block;
-    position:absolute;
-    left: 0;
-    top: 100%;
-    background-color: black;
-
-}
-.menu_bar ul li:hover .dropdown_menu ul {
-    display: block;
-    margin:10px;
-}
-.menu_bar ul li:hover .dropdown_menu ul li{
+    background-image: url(ceonlogo.jpg);
+    height: 150px;
     width: 150px;
-    padding: 10px;
+    background-size: cover;
+    position: absolute;
+    left: 50px;
 }
-.herosection{
-    height: 300px;
-    width: 500px;
+.navber ul{
+ position: absolute;
+ left: 800px;
+  margin-right: 20px;
+
+}
+.navber ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+}
+.navber ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+    
+
+.mainp{
+  height: 100px;
+  width: 600px;
+  position: absolute;
+  left: 600px;
+  font-size: 2rem;
+  color: blueviolet;
+}
+.herobox{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     position: absolute;
     top: 300px;
-    font-size: 2rem;
-    font-family: sans-serif;
-}
-.herosection h1 {
-    color: aqua;
-}
-.herosection span{
-    color: white;
-}
-.imgherosection{
-    height: 580px;
-    width: 700px;
-    background-image:url(robot-PWXSUAM.png) ;
-    position: absolute;
-    top: 150px;
-    left: 400px;
-    
-    background-position: center;
-}
-.sideherosection{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 500px;
-    left: 1100px;
-    color: white;
-    font-size: 1.4rem;
-    
-
-}
-.sideherosection span{
-    position: absolute;
-    left:70px;
-    font-family: sans-serif;
-}
-.sideherosection p{
-    font-weight: 5rem;
-}
-.parragraph{
-    height: 100px;
-    width: 500px;
-    color: white;
-    position: absolute;
-    top: 900px;
-    left: 500px;
-    font-size: 3rem;
-    font-family: sans-serif;
-   
-}
-.parragraph span{
-    color: aqua;
-}
-.nextp{
-    height: 100px;
-    width: 700px;
-    position: absolute;
-    top: 970px;
-    left: 450px;
-    font-size: 1.3rem;
-    color: white;
-    
-}
-.nextbox{
-    height: 300px;
-    width:100%;
-    position: absolute;
-    top: 1200px;
-    left:0px;
-    display: flex;
     padding: 30px;
     justify-content: space-evenly;
-    color: white;
 }
-.box1 {
-    
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
-    padding: 30px;
-    color: white;
-    background-color: #23155470;
+.box1{
+  height: 200px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 2rem; 
+   
 }
 .box1:hover{
-    background-color: rgb(5, 69, 69);
-}
-.box2 {
-    
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
-    padding: 30px;
-    color: white;
-    background-color: #23155470;
-}
-.box2:hover{
-    background-color: rgb(5, 69, 69);
-}
-
-
-.box3 {
-    color: white;
-    
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
-    padding: 30px;
-    color: white;
-    background-color: #23155470;
-}
-.box3:hover{
-    background-color: rgb(5, 69, 69);
-}
-.box4 {
-    
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
-    padding: 30px;
-    color: white;
-    background-color: #23155470;
-}
-.box4:hover{
-    background-color: rgb(5, 69, 69);
-}
-.logo1{
-    height: 100px;
-    width: 50px;
-}
-.logo2{
-    height: 100px;
-    width: 50px;
-}
-.logo3{
-    height: 100px;
-    width: 50px;
-}
-.logo4{
-    height: 100px;
-    width: 50px;
-}
-h1{
-    color: white;
-}
-h3{
-    color: white;
-    font-weight: lighter;
-}
-.underbox{
-    height: 50px;
-    width: 500px;
-    position: absolute;
-    top: 1700px;
-    left: 100px;
-    font-size: 1.7rem;
-    color: white;
-}
-.underbox span{
-    color: aqua;
-}
-.pichero{
-    height: 400px;
-    width: 600px;
-    position: absolute;
-    top: 1900px;
-    left: 100px;
-    background-image:url(second.jpg) ;
-    background-size: cover;
-    border: 0.1px solid black;
-    border-radius: 10px;
-}
-.paragraph{
-    height: 200px;
-    width: 600px;
-    position: absolute;
-    top: 2000px;
-    left: 800px;
-    color: white;
-    font-size: 3.3rem;
-    font-weight: 2rem;
-}
-.paragraph span{
-    color: aqua;
-}
-.lorem{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 2140px;
-    left: 800px;
-    color: white;
-    font-size: 18px;
-    font-weight: 0.5px;
-}
-.thirdp{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 2140px;
-    left:1150px ;
-    background-image: url(third.jpg);
-    background-size: cover;
-    border: 0.1px solid black;
-    border-radius: 10px;
-}
-.mainsec{
-    height: 200px;
-    width: 350px;
-    position: absolute;
-    top: 2500px;
-    left: 100px;
-    color: white;
-    
-}
-.mainsec p{
-    font-size: 3rem;
-}
-.mainsec span{
-    color: aqua;
-}
-.mainsec h4{
-    font-size: 1.15rem;
-}
-.mainbox{
-    height: 450px;
-    width: 900px;
-    position: absolute;
-    top: 2500px;
-    left: 600px;
-    
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.main1{
-    height: 450px;
-    width: 400px;
-    border: 2px solid blue;
-    border-radius: 10px;
-}
-.main2{
-    height: 450px;
-    width: 400px;
-    border: 2px solid blue;
-    border-radius: 10px;
-}
-.mainbox1{
-    height: 450px;
-    width: 900px;
-    position: absolute;
-    top: 2980px;
-    left: 600px;
-    
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.main3{
-    height: 450px;
-    width: 400px;
-    border: 2px solid blue;
-    border-radius: 10px;
-}
-.main4{
-    height: 450px;
-    width: 400px;
-    border: 2px solid blue;
-    border-radius: 10px;
-}
-.closend{
-    height:1050px;
-    width: 1250px;
-    position: absolute;
-    top: 3500px;
-    left: 115px;
-    background-color:#23155470;
-    border:0.1px solid rgb(82, 79, 79) ;
-    border-radius: 30px;
-}
-.endp{
-    height: 50px;
-    width: 900px;
-    color: white;
-    font-size: 3rem;
-    position: absolute;
-    left: 250px;
-    top: 100px;
-}
-.endp span{
-    color: aqua;
-}
-.underp{
-    width: 600px;
-    color: white;
-    position: absolute;
-    top: 170px;
-    left: 350px;
-}
-.onp{
-    width: 400px;
-    color: white;
-    position: absolute;
-    top: 200px;
-    left: 430px;
-}
-.picend{
-    height: 400px;
-    width: 1100px;
-    position: absolute;
-    top: 300px;
-    left: 70px;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.pic1{
-    height: 400px;
-    width: 520px;
-    background-image: url(forth.jpg);
-    border-radius: 10px;
-    background-size: cover;
-
-}
-.pic2{
-    height: 400px;
-    width: 520px;
-    background-image: url(fifth.jpg);
-    border-radius: 10px;
-    background-size: cover;
-
-}
-.agri{
-    height: 200px;
-    width: 450px;
-    position: absolute;
-    top: 650px;
-    left: 125px;
-    background-color:#0b071bf5 ;
-    color: white;
-    padding: 20px;
-    
-}
-.agri p{
-    font-size: 2rem;   
-}
-.robo{
-    height: 200px;
-    width: 450px;
-    position: absolute;
-    top: 650px;
-    left: 665px;
-    background-color:#0b071bf5 ;
-    color: white;
-    padding: 20px;
-    
-}
-.robo p{
-    font-size: 2rem;   
-}
-button{
-    height:50px;
-    width: 200px;
-    position: absolute;
-    top: 950px;
-    left: 500px;
-    border: 2px solid aqua;
-    border-radius: 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s ease;
-    color: white;
-    background: transparent;
-
-}
-button:hover{
-    background-color: aqua;
-    color: black;
-}
-.people{
-    height: 100px;
-    width: 600px;
-    position: absolute;
-    top: 4700px;
-    left: 100px;
-    color: white;
-    font-size: 3rem;
-}
-.people span{
-    color: aqua;
-}
-.nextpeople{
-    height: 200px;
-    width: 600px;
-    position: absolute;
-    top:4730px ;
-    left: 800px;
-    color: white;
-    font-size: 1.2rem;
-}
-.personal{
-    height: 400px;
-    width: 1500px;
-    position: absolute;
-    top: 5000px;
-    left: 10px;
-    
-    display: flex;
-    justify-content: space-evenly;
-}
-.pbox1{
-    height: 400px;
-    width: 400px;
-    border: 2px solid blue;
-}
-.pbox2{
-    height: 400px;
-    width: 400px;
-    border: 2px solid blue;
-}
-.pbox3{
-    height: 400px;
-    width: 400px;
-    border: 2px solid blue;
-}
-.leatest{
-    height: 50px;
-    width: 700px;
-    position: absolute;
-    top: 5900px;
-    left: 550px;
-    color: white;
-    font-size: 3rem;
-}
-.leatest span{
-    color: aqua;
-}
-.ipsum{
-    height: 30px;
-    width: 700px;
-    position: absolute;
-    top: 5970px;
-    left:530px;
-    color:white;
-    font-size: 1.1rem;
-
-}
-.tempor{
-    height: 50px;
-    width: 700px;
-    position: absolute;
-    top: 6000px;
-    left: 600px;
-    color: white;
-}
-.endbox{
-    height: 450px;
-    width: 1400px;
-    position: absolute;
-    top:6050px ;
-    left: 30px;
-    display: flex;
-    justify-content: space-evenly;
-
-}
-.ebox1{
-    height: 450px;
-    width: 400px;
-    
-    border-radius: 10px;
-    background-image: url(six.jpg);
-    background-size: cover;
-}
-.ebox1 p {
-    position: absolute;
-    top: 340px;
-    left:100px;
-    font-size: 1.7rem;
-    color: white;
-    font-weight: bold;
-}
-.ebox1 h5{
-    position: absolute;
-    top: 410px;
-    left:100px;
-    font-size: 1rem;
-    color: white;
-    font-weight: lighter;
-}
-.ebox2{
-    height: 450px;
-    width: 400px;
-    
-    border-radius: 10px;
-    background-image: url(seven.jpg);
-    background-size: cover;
-}
-.ebox2 p {
-    position: absolute;
-    top: 340px;
-    left:540px;
-    font-size: 1.7rem;
-    color: white;
-    font-weight: bold;
-}
-.ebox2 h5{
-    position: absolute;
-    top: 410px;
-    left:540px;
-    font-size: 1rem;
-    color: white;
-    font-weight: lighter;
-}
-.ebox3{
-    height: 450px;
-    width: 400px;
-    
-    border-radius: 10px;
-    background-image: url(eight.jpg);
-    background-size: cover;
-}
-.ebox3 p {
-    position: absolute;
-    top: 340px;
-    left:1000px;
-    font-size: 1.7rem;
-    color: white;
-    font-weight: bold;
-}
-.ebox3 h5{
-    position: absolute;
-    top: 410px;
-    left:1000px;
-    font-size: 1rem;
-    color: white;
-    font-weight: lighter;
-}
-.unlock{
-    height: 450px;
-    width: 800px;
-    background-image: url(robo2.png);
-    background-size: cover;
-    position: absolute;
-    top: 6700px;
-    left: 10px;
-    }
-.potential{
-    height:150px;
-    width: 600px;
-    position: absolute;
-    top: 6800px;
-    left: 800px;
-
-}
-.potential p{
-    font-size: 3rem;
-    color: white;
-    font-weight: bold;
-}
-.potential p span{
-    color: aqua;
-}
-.potential h4{
-    position: absolute;
-    top: 130px;
-    font-size: 1.2rem;
-    color: white;
-    font-weight: lighter;
-}
-.endbutton{
+  height: 220px;
+  width: 270px;
+}
+.know{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  position: absolute;
+  top: 180px;
+  left: 145px;
+  
+  border: 2px solid blue;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+ background-color: #1b9bff;
+ color: black;
+  
+}
+.know:hover{
+  background-color: blue;
+  color: white;
+  width: 220px;
+  position: absolute;
+  left: 143px;
+}
+.know p{
+  position: absolute;
+  left: 60px;
+  align-items: center;
+}
+.box2{
+  height: 200px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 2rem;   
+  }
+  .box2:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know1{
     height: 50px;
     width: 200px;
+    background-color: #1b9bff;
     position: absolute;
-    top: 7050px;
-    left: 830px;
-    border: 2px solid aqua;
-    border-radius: 30px;
+    top: 180px;
+    left: 493px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know1:hover{
+    background-color: blue;
     color: white;
-
-}
-.footer{
-    height: 100px;
-    width: 1500px;
-    position: absolute;
-    top: 7300px;
-    left: 50px;
-    display: flex;
-    color: white;
-   
-    background-color:#0b071bf5 ;
-    
-    
-}
-.details{
-    height: 200px;
-    width: 600px; 
-    
-      
-}
-.details a{
-    font-size: 1.2rem;
-    margin: 20px;
-   
-
-}
-.details a:hover{
-    color: aqua;
-}
-.fologo{
-    height: 50px;
     width: 220px;
-    align-items: center;
-    
-    background-image: url(lasti.png);
-    background-size: cover;
-
-}
-.opp{
+    position: absolute;
+    left: 485px;
+  }
+  .know1 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  
+  
+  .box3{
     height: 200px;
-    width: 600px;
-   
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 2rem;    
+  }
+  .box3:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know2{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 840px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know2:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 826px;
+  }
+  .know2 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  
+  .box4{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 2rem;  
+  }
+  .box4:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know3{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 1185px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know3:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 1170px;
+  }
+  .know3 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  
+  .herobox1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 600px;
+    padding: 30px;
+    justify-content: space-evenly;
 }
-.opp a{
-    font-size: 1.2rem;
-    margin: 20px;
-
+.box5{
+  height: 200px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 2rem;  
 }
-.opp a:hover{
-    color: aqua;
+.box5:hover{
+  height: 220px;
+  width: 270px;
 }
+.know4{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  position: absolute;
+  top: 180px;
+  left: 145px;
+  
+  border: 2px solid blue;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+ background-color: #1b9bff;
+ color: black;
+  
+}
+.know4:hover{
+  background-color: blue;
+  color: white;
+  width: 220px;
+  position: absolute;
+  left: 143px;
+}
+.know4 p{
+  position: absolute;
+  left: 60px;
+  align-items: center;
+}
+.box6{
+  height: 200px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 2rem;   
+  }
+  .box6:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know5{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 493px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know5:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 485px;
+  }
+  .know5 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  
+  .box7{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 2rem;    
+  }
+  .box7:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know6{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 840px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know6:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 826px;
+  }
+  .know6 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  
+  .box8{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 2rem;  
+  }
+  .box8:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know7{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 1185px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know7:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 1170px;
+  }
+  .know7 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  .herobox2{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 900px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.box9{
+  height: 200px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 2rem;  
+}
+.box9:hover{
+  height: 220px;
+  width: 270px;
+}
+.know8{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  position: absolute;
+  top: 180px;
+  left: 145px;
+  
+  border: 2px solid blue;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+ background-color: #1b9bff;
+ color: black;
+  
+}
+.know8:hover{
+  background-color: blue;
+  color: white;
+  width: 220px;
+  position: absolute;
+  left: 143px;
+}
+.know8 p{
+  position: absolute;
+  left: 60px;
+  align-items: center;
+}
+.box10{
+  height: 200px;
+  width: 250px;
+  border: 2px solid blue;
+  border-radius: 2rem;   
+  }
+  .box10:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know9{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 493px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know9:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 485px;
+  }
+  .know9 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  .box11{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 2rem;    
+  }
+  .box11:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know10{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 840px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know10:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 826px;
+  }
+  .know10 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
+  .box12{
+    height: 200px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 2rem;  
+  }
+  .box12:hover{
+    height: 220px;
+    width: 270px;
+  }
+  .know11{
+    height: 50px;
+    width: 200px;
+    background-color: #1b9bff;
+    position: absolute;
+    top: 180px;
+    left: 1185px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    
+  }
+  .know11:hover{
+    background-color: blue;
+    color: white;
+    width: 220px;
+    position: absolute;
+    left: 1170px;
+  }
+  .know11 p{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    font-size: 20px;
+  }
